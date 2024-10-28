@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  h1 {
+    @apply text-[28px] md:text-[35px] lg:text-[40px] xl:text-[50px] font-extrabold;
+  }
+
+  h2 {
+    @apply text-[24px] md:text-[28px] font-bold;
+  }
+
+  h3 {
+    @apply text-[20px] lg:text-[24px] font-bold;
+  }
+
+  h4 {
+    @apply text-[16px] lg:text-[20px] font-bold;
+  }
+
+  p {
+    @apply text-[14px] lg:text-[16px];
+  }
+}
